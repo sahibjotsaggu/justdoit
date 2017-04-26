@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAEC,4BAAY,CACX,SAAS,CAAE,IAAI,CAGhB,2CAA2B,CAC1B,UAAU,CAAE,IAAI",
+"sources": ["../../sass/partials/styleoverrides.scss"],
 "names": [],
 "file": "styleoverrides.css"
 }

@@ -1,0 +1,31 @@
+@mixin transform($args...) {
+	-webkit-transform: $args;
+	-moz-transform: $args;
+	-o-transform: $args;
+	-ms-transform: $args;
+	transform: $args;
+}
+
+@mixin transition($args...) {
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-o-transition: $args;
+	-ms-transition: $args;
+	transition: $args;
+}
+
+@mixin transition-timing-function($args...) {
+	-webkit-transition-timing-function: $args;
+	-moz-transition-timing-function: $args;
+	-o-transition-timing-function: $args;
+	-ms-transition-timing-function: $args;
+	transition-timing-function: $args;
+}
+
+@mixin boxShadow($args...) {
+	-webkit-box-shadow: $args;
+	-moz-box-shadow: $args;
+	-o-box-shadow: $args;
+	-ms-box-shadow: $args;
+	box-shadow: $args;
+}

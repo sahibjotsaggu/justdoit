@@ -1,0 +1,7 @@
+{
+	"stepsOfSuccess": [
+		"Enter the title of the task.",
+		"Enter a description for the task. (optional)",
+		"Select a time you would like to be reminded."
+	]
+}

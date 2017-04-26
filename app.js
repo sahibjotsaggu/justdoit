@@ -8,8 +8,8 @@ var index = require('./routes/index');
 
 var app = express();
 
-app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
 
 app.use(logger('dev'));
 app.use(bodyParser.json());

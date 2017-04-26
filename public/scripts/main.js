@@ -1,5 +1,6 @@
 $(document).ready(function() {
-	$('.delete_button').on('click', function() {
-		$(this).closest('.mdl-card').fadeOut();
+	$('.done_card, .delete_card').on('click', function() {
+		var $card = $(this).closest('.mdl-card');
+		$card.fadeOut(195);
 	});
 });
