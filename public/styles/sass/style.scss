@@ -3,6 +3,13 @@
 
 @import "partials/styleoverrides";
 
+$cardSize: 349px;
+$gutterWidth: ((1080px - (3 * $cardSize)))/4;
+
 .mdl-card {
-	margin-top: 8px;
+	max-width: 300px;
+	margin-left: $gutterWidth;
+	&:nth-child(n + 4) {
+		margin-top: $gutterWidth;
+	}
 }

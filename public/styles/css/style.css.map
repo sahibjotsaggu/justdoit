@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAKA,SAAU,CACT,UAAU,CAAE,GAAG",
-"sources": ["../sass/style.scss"],
+"mappings": "AAEC,4BAAY,CACX,SAAS,CAAE,IAAI,CAGhB,2CAA2B,CAC1B,UAAU,CAAE,IAAI,CCClB,SAAU,CACT,SAAS,CAAE,KAAK,CAChB,WAAW,CAJI,MAA4B,CAK3C,wBAAmB,CAClB,UAAU,CANI,MAA4B",
+"sources": ["../sass/partials/styleoverrides.scss","../sass/style.scss"],
 "names": [],
 "file": "style.css"
 }

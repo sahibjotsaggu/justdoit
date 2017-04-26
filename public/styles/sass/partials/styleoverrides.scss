@@ -1,3 +1,10 @@
+@import "partials/mixins";
 #style_overrides {
+	.mdl-button {
+		min-width: auto;
+	}
 
+	.mdl-card__supporting-text {
+		min-height: 56px;
+	}
 }
