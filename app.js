@@ -3,6 +3,7 @@ var path = require('path');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var firebase = require('firebase');
 
 var index = require('./routes/index');
 
@@ -16,6 +17,17 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+var config = {
+  apiKey: "AIzaSyBLTfGyRsez9Zvv_JxP95rSw_Nmzcws-eQ",
+  authDomain: "justdoit-9ee42.firebaseapp.com",
+  databaseURL: "https://justdoit-9ee42.firebaseio.com",
+  projectId: "justdoit-9ee42",
+  storageBucket: "justdoit-9ee42.appspot.com",
+  messagingSenderId: "904179461954"
+};
+
+firebase.initializeApp(config);
 
 app.use('/', index);
 
